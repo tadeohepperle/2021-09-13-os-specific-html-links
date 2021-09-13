@@ -39,3 +39,9 @@ function replaceHREFs() {
     }
   }
 }
+
+if(window){
+  window.addEventListener("load", () => {
+    replaceHREFs();
+  });
+}
