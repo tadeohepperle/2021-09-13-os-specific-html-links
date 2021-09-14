@@ -8,6 +8,7 @@
     <title>OS-specific HTML Links</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="./os_specific_links.js"></script>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
         <p>Currently supported: Windows, Android, iOS, Mac OS, Linux</p>
         <p class="text-success">Detected OS: <span id="detected">Hallo</span></p>
     </div>
-    <script src="./os_specific_links.js"></script>
+
     <script>
         document.getElementById("detected").innerText = detectOS();
     </script>
